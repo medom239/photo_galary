@@ -318,6 +318,7 @@ body{
     color: #E6C87A;
 }
 
+                                 /*  media queries  */
 
 @media (max-width:1200px){
     .side_bar button{
@@ -580,11 +581,15 @@ body{
         width:45%;
         left:-240px;
     }
-.side_bar button{
+    .side_bar button{
         font-size: 15px ;
         width:92%;
     }
 
+    .empty_favorite{
+    font-size: 20px;
+    width:100%;
+    }
     .galary{
         grid-template-columns: 1fr;
 
@@ -604,10 +609,10 @@ body{
         font-size: 20px;
     }
     .fotterlinks a{
-        margin-right: 3%;
+        margin-right: 4%;
     }
     .thx{
-        font-size: 14px;
+        font-size: 13.2px;
         row-gap: 18px;
     }
 }
